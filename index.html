@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Keys With Lauryn helps Houston-area clients buy, sell, and lease homes and apartments.">
+  <title>Keys With Lauryn | Houston Real Estate</title>
+  <style>
+    :root { --black:#0b0b0c; --cream:#fbf8f1; --gold:#c9a55b; --muted:#cfc9bc; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--black); color:white; }
+    a { color:inherit; }
+    nav { position:absolute; inset:0 0 auto; z-index:2; display:flex; justify-content:space-between; align-items:center; padding:24px 6vw; }
+    .brand { font-family:Georgia,serif; font-size:clamp(1.1rem,2.5vw,1.45rem); letter-spacing:.03em; }
+    .brand span { color:var(--gold); }
+    nav a { text-decoration:none; font-weight:700; }
+    .nav-cta { border:1px solid var(--gold); border-radius:999px; padding:10px 17px; }
+    .hero { min-height:100vh; display:grid; grid-template-columns:1.05fr .95fr; align-items:center; overflow:hidden; }
+    .copy { padding:130px 6vw 80px; }
+    .eyebrow { color:var(--gold); font-weight:800; letter-spacing:.16em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-family:Georgia,serif; font-size:clamp(3.3rem,7.5vw,7.2rem); font-weight:500; line-height:.88; margin:22px 0; letter-spacing:-.04em; }
+    h1 span { color:var(--gold); font-style:italic; }
+    .lead { max-width:600px; color:var(--muted); font-size:clamp(1rem,1.6vw,1.2rem); line-height:1.7; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:34px; }
+    .button { display:inline-block; padding:15px 22px; border-radius:4px; font-weight:800; text-decoration:none; }
+    .primary { background:var(--gold); color:#111; }
+    .secondary { border:1px solid #555; }
+    .portrait { height:100vh; min-height:650px; background:linear-gradient(to top,rgba(11,11,12,.48),transparent 45%),url('lauryn.jpeg') center 18%/cover no-repeat; }
+    .services { background:var(--cream); color:#191817; padding:82px 6vw; }
+    .services h2 { font-family:Georgia,serif; font-size:clamp(2.3rem,5vw,4.2rem); margin:0 0 12px; }
+    .intro { color:#655f55; font-size:1.05rem; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:38px; }
+    .card { border-top:3px solid var(--gold); background:white; padding:30px; box-shadow:0 12px 40px rgba(0,0,0,.07); }
+    .card h3 { font-family:Georgia,serif; font-size:1.55rem; margin:0 0 12px; }
+    .card p { color:#655f55; line-height:1.65; margin:0; }
+    .contact { padding:75px 6vw; text-align:center; }
+    .contact h2 { font-family:Georgia,serif; font-size:clamp(2.2rem,5vw,4rem); margin:0 0 28px; }
+    footer { color:#888; text-align:center; border-top:1px solid #252525; padding:24px; font-size:.9rem; }
+    @media (max-width:780px) {
+      nav { padding:20px 5vw; }
+      .hero { display:flex; flex-direction:column-reverse; }
+      .portrait { width:100%; min-height:0; height:58vh; }
+      .copy { padding:46px 6vw 64px; }
+      h1 { font-size:clamp(3rem,16vw,5rem); }
+      .cards { grid-template-columns:1fr; }
+      .nav-cta { background:rgba(11,11,12,.55); }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="brand">Keys <span>With</span> Lauryn</div>
+    <a class="nav-cta" href="#contact">Let's Talk</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="copy">
+        <div class="eyebrow">Houston Real Estate</div>
+        <h1>Your next move<br>starts with the <span>right key.</span></h1>
+        <p class="lead">Whether you're buying, selling, leasing, or searching for an apartment, I’ll help you move forward with clarity and confidence.</p>
+        <div class="actions">
+          <a class="button primary" href="tel:+18326170012">Call Lauryn</a>
+          <a class="button secondary" href="mailto:keyswithlauryn@gmail.com">Send an Email</a>
+        </div>
+      </div>
+      <div class="portrait" role="img" aria-label="Professional portrait of Lauryn Jefferson"></div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>How I can help</h2>
+      <p class="intro">Real-estate guidance tailored to your goals and your timeline.</p>
+      <div class="cards">
+        <article class="card"><h3>Buy a Home</h3><p>From the first search through closing, get support finding a home that fits your life and budget.</p></article>
+        <article class="card"><h3>Sell Your Home</h3><p>Prepare, market, and position your property to attract serious buyers in the Houston market.</p></article>
+        <article class="card"><h3>Lease & Apartments</h3><p>Find rental homes and apartments that match your location, space, and move-in needs.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="eyebrow">Ready when you are</div>
+      <h2>Let’s find your next address.</h2>
+      <div class="actions" style="justify-content:center">
+        <a class="button primary" href="tel:+18326170012">(832) 617-0012</a>
+        <a class="button secondary" href="https://www.instagram.com/keyswithlauryn_/" target="_blank" rel="noopener">Instagram @keyswithlauryn_</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Keys With Lauryn · Houston, Texas</footer>
+</body>
+</html>
