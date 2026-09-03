@@ -36,6 +36,10 @@
     .card p { color:#655f55; line-height:1.65; margin:0; }
     .contact { padding:75px 6vw; text-align:center; }
     .contact h2 { font-family:Georgia,serif; font-size:clamp(2.2rem,5vw,4rem); margin:0 0 28px; }
+    .brokerage { background:white; color:#191817; padding:30px 6vw; display:flex; align-items:center; justify-content:center; gap:22px; text-align:left; }
+    .brokerage img { width:150px; max-height:100px; object-fit:contain; }
+    .brokerage p { margin:0; color:#655f55; line-height:1.5; }
+    .brokerage strong { display:block; color:#191817; font-size:1.1rem; }
     footer { color:#888; text-align:center; border-top:1px solid #252525; padding:24px; font-size:.9rem; }
     @media (max-width:780px) {
       nav { padding:20px 5vw; }
@@ -45,6 +49,7 @@
       h1 { font-size:clamp(3rem,16vw,5rem); }
       .cards { grid-template-columns:1fr; }
       .nav-cta { background:rgba(11,11,12,.55); }
+      .brokerage { flex-direction:column; text-align:center; }
     }
   </style>
 </head>
@@ -85,6 +90,11 @@
         <a class="button primary" href="tel:+18326170012">(832) 617-0012</a>
         <a class="button secondary" href="https://www.instagram.com/keyswithlauryn_/" target="_blank" rel="noopener">Instagram @keyswithlauryn_</a>
       </div>
+    </section>
+
+    <section class="brokerage" aria-label="Brokerage information">
+      <img src="w3-realty.jpeg" alt="W3 Realty logo">
+      <p><strong>Brokered by W3 Realty</strong>Serving buyers, sellers, and renters throughout the Houston area.</p>
     </section>
   </main>
 
